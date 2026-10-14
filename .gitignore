@@ -1,0 +1,39 @@
+# Model checkpoints, supplied archives and environment files
+*.pth
+*.pt
+*.safetensors
+*.zip
+*.7z
+*.tar
+*.tar.gz
+.env
+.env.*
+!.env.example
+.kisdi/
+.venv/
+venv/
+new_venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.cache/
+
+# Business datasets, collected pages and generated predictions
+/분류필요데이터/
+/data/
+/results/
+/output/
+/work/
+*.csv
+*.xlsx
+*.xls
+*.sqlite
+*.sqlite3
+*.db
+*.log
+*.html
+
+# Editor and operating system files
+.DS_Store
+.idea/
+.vscode/
